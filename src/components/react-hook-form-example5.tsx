@@ -5,6 +5,7 @@ import Input from "@mui/material/Input";
 interface IFormInput {
   firstName: string;
   lastName: string;
+  Age: number;
   iceCreamType: { label: string; value: string };
 }
 
@@ -13,6 +14,7 @@ export const ReactHookFormExample5 = () => {
     defaultValues: {
       firstName: "",
       lastName: "",
+      Age: 0,
       iceCreamType: { label: "", value: "" },
     },
   });
